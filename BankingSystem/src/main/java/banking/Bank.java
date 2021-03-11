@@ -11,6 +11,7 @@ public class Bank implements BankInterface {
 
 	public Bank() {
 		// complete the function
+		accounts = new LinkedhashMap<Long, Account>();
 	}
 
 	private Account getAccount(Long accountNumber) {
